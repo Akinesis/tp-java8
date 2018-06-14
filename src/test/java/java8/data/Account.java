@@ -5,6 +5,11 @@ public class Account {
     private Person owner;
     private Integer balance;
 
+    public Account(Person p, int b){
+    	owner = p;
+    	balance =b;
+    }
+    
     public Person getOwner() {
         return owner;
     }
